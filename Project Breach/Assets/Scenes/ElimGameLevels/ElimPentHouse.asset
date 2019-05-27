@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4072752ce5a22846b22808b46f1834d, type: 3}
+  m_Name: ElimPentHouse
+  m_EditorClassIdentifier: 
+  level: 4
+  gameMode: {fileID: 1775776788390680, guid: 754580d129e10ad48bb9244d776dacc9, type: 2}
+  gameModeType: 0
+  playerStartingLocations:
+  - {x: -9, y: -3}
+  - {x: -8, y: -3}
+  - {x: -7, y: -3}
+  enemies:
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 22, y: -7}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 4, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 14, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 1, y: 0}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 14, y: 0}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  cover:
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -6, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -3, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 6, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 12, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 4, y: 0}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 9, y: 0}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 13, y: 0}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 19, y: -7}
+    currentHitPoints: -1
+    maxHitPoints: 0

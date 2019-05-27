@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b3f5e03bbb0864ab0833ba27daeb1d, type: 3}
+  m_Name: Basic Enemy Shooting
+  m_EditorClassIdentifier: 
+  abilityName: Basic Enemy Shooting
+  abilityAnimation: {fileID: 7400000, guid: 1362460b7c2935541866dab0643c8070, type: 2}
+  overlay: {fileID: 1617010972243456, guid: 6b943f9d43708dc46ab7a3bb4f39496a, type: 2}
+  abilityToolTip: {fileID: 1704624183578150, guid: 351c5009e59e41d45944ef1de0f69976,
+    type: 2}
+  maxCoolDown: 1
+  abilityImage: {fileID: 21300000, guid: f12ba31bb7cb1714f994c1dd05202ec8, type: 3}
+  firingAngleRange: 60
+  numOfShotsToFire: 5
+  delayBetweenShots: 0.2
+  projectilePrefab: {fileID: 1444353120276296, guid: 89bb723062ea7c8499c2f5f9119fd491,
+    type: 2}

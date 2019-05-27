@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bff8df09cad7b34082c31043cd98ffe, type: 3}
+  m_Name: BasicLevelCatalog
+  m_EditorClassIdentifier: 
+  Levels:
+  - {fileID: 11400000, guid: 61869660cd333fa4a89be71b48b52e41, type: 2}
+  - {fileID: 11400000, guid: 6b57f96afb3b5bd4aba8b4e21a1ce888, type: 2}
+  - {fileID: 11400000, guid: ccb3ef166048aa541971db40f61e3041, type: 2}
+  - {fileID: 11400000, guid: fab63eb57ef475a41ae9b1e20d624147, type: 2}
+  levelsPerLayer: 010000000100000002000000
+  numberOfLevelsToComplete: 3
+  gameProgress: 0

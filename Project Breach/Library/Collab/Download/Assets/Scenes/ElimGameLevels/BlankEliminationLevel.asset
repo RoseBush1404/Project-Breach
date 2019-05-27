@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4072752ce5a22846b22808b46f1834d, type: 3}
+  m_Name: BlankEliminationLevel
+  m_EditorClassIdentifier: 
+  level: 5
+  gameMode: {fileID: 1775776788390680, guid: 754580d129e10ad48bb9244d776dacc9, type: 2}
+  gameModeType: 0
+  playerStartingLocations:
+  - {x: -9, y: -3}
+  - {x: -8, y: -3}
+  - {x: -7, y: -3}
+  enemies:
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: -6, y: -6}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: 19, y: -4}
+    hasMoveAction: 1
+    hasAbilityAction: 1
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: -2, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: 7, y: -3}
+    hasMoveAction: 1
+    hasAbilityAction: 1
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: -4, y: 0}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: 1, y: -8}
+    hasMoveAction: 1
+    hasAbilityAction: 1
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  - PrebuiltCharacter: {fileID: 0}
+    BlankCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    position: {x: 10, y: -8}
+    hasMoveAction: 1
+    hasAbilityAction: 1
+    team: 1
+    profileImage: {fileID: 21300000, guid: 779c305a93993114795d94adce9c878e, type: 3}
+    movementSpeed: 2
+    movementRange: 5
+    maxHealth: 5
+    currentHealth: 5
+    abilityConfigs:
+    - {fileID: 11400000, guid: 86bbdd32d6009f7418147ca36a30948e, type: 2}
+    abilityInformations:
+    - currentCoolDown: 0
+      canUseAbility: 1
+      numberOfTurnsAffected: 0
+      affectedCharacter: {fileID: 0}
+      affectedCharacterIndex: 0
+      affectedTeam: 2
+  cover:
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 3, y: -8}
+    currentHitPoints: 5
+    maxHitPoints: 5
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 9, y: -8}
+    currentHitPoints: 5
+    maxHitPoints: 5
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 11, y: -4}
+    currentHitPoints: 5
+    maxHitPoints: 5
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 18, y: -4}
+    currentHitPoints: 5
+    maxHitPoints: 5
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -1, y: -3}
+    currentHitPoints: 5
+    maxHitPoints: 5

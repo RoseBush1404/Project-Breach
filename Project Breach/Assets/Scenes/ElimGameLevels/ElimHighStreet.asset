@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4072752ce5a22846b22808b46f1834d, type: 3}
+  m_Name: ElimHighStreet
+  m_EditorClassIdentifier: 
+  level: 7
+  gameMode: {fileID: 1775776788390680, guid: 754580d129e10ad48bb9244d776dacc9, type: 2}
+  gameModeType: 0
+  playerStartingLocations:
+  - {x: -14, y: -6}
+  - {x: -13, y: -6}
+  - {x: -12, y: -6}
+  enemies:
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: -2, y: -9}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 6, y: -9}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 14, y: -9}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 27, y: -9}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 19, y: -6}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: -5, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 0, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 11, y: -3}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  - PrebuiltCharacter: {fileID: 1013231187810050, guid: a11b65df8bd3cc44e822cdacc0734b5d,
+      type: 2}
+    BlankCharacter: {fileID: 0}
+    position: {x: 20, y: 0}
+    hasMoveAction: 0
+    hasAbilityAction: 0
+    team: 1
+    profileImage: {fileID: 0}
+    movementSpeed: 0
+    movementRange: 0
+    maxHealth: 0
+    currentHealth: 0
+    abilityConfigs: []
+    abilityInformations: []
+  cover:
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -3, y: -9}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 3, y: -9}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 10, y: -9}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -6, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 3, y: -3}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: -10, y: -6}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 26, y: -9}
+    currentHitPoints: -1
+    maxHitPoints: 0
+  - coverPrefab: {fileID: 1317553183584356, guid: 118151f30ee11644c9176a4866329136,
+      type: 2}
+    location: {x: 19, y: 0}
+    currentHitPoints: -1
+    maxHitPoints: 0
