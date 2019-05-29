@@ -6875,7 +6875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0d3ac537001254ca48f73a949a3869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inRangeColour: {r: 0, g: 1, b: 0, a: 1}
+  inRangeColour: {r: 0, g: 1, b: 0, a: 0.47058824}
   selectedColour: {r: 0, g: 0, b: 1, a: 1}
 --- !u!114 &872461698
 MonoBehaviour:
@@ -13912,7 +13912,7 @@ Prefab:
       objectReference: {fileID: 1635689509}
     - target: {fileID: 4975002545132750, guid: f0fb96dd90b04414fa47ed0f564eb059, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -510680
+      value: -510750
       objectReference: {fileID: 0}
     - target: {fileID: 20886124059120516, guid: f0fb96dd90b04414fa47ed0f564eb059,
         type: 2}
